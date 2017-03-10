@@ -1,0 +1,46 @@
+  // books
+  
+  {
+    "title": "The Murder House",
+    "genre": "Suspense",
+    "description": "No. 7 Ocean Drive is a gorgeous, multi-million-dollar beachfront estate in the Hamptons, where money and privilege know no bounds. But its beautiful gothic exterior hides a horrific past: it was the scene of a series of depraved killings that have never been…",
+    "author": "James Patterson",
+    "publisher": "Brown and Company",
+    "pages": "480",
+    "image_url": "http://prodimage.images-bn.com/pimages/9781455589913_p0_v1_s192x300.jpg",
+    "buy_url": "http://www.barnesandnoble.com/w/the-murder-house-james-patterson/1120873479",
+  },
+  {
+    "title": "Truth or Die",
+    "genre": "Suspense",
+    "description": "After a serious professional stumble, attorney Trevor Mann may have finally hit his stride. He is found happiness with his girlfriend Claire Parker, a beautiful, ambitious journalist always on the hunt for a scoop. But when Claires newest story leads to a violent confrontation, Trevors newly…",
+    "publisher": "Grand Central Publishing",
+    "pages": "416",
+    "image_url": "http://prodimage.images-bn.com/pimages/9781455584963_p0_v1_s192x300.jpg",
+    "buy_url": "http://www.barnesandnoble.com/w/truth-or-die-james-patterson/1120509003?ean=9781455584963#productInfoTabs"
+  },
+  {
+    "title": "The Notebook",
+    "genre": "Romance",
+    "author": "Nicholas Sparks",
+    "publisher": "Grand Central Publishing",
+    "description": "Every so often a love story so captures our hearts that it becomes more than a story-it becomes an experience to remember forever.",
+    "pages": "272",
+    "image_url": "http://prodimage.images-bn.com/pimages/9781455582877_p0_v2_s192x300.jpg",
+    "buy_url": "http://www.barnesandnoble.com/w/notebook-nicholas-sparks/1100298896?ean=9781455582877"
+  }
+
+// "genre"
+
+  {
+    "name": "Thriller",
+  },
+  {
+    "name": "Self Help",
+  },
+  {
+    "name": "Romance",
+  },
+  {
+    "name": "Drama",
+  }
