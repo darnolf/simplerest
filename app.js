@@ -1,10 +1,15 @@
 var express = require('express');
+var cors = require('cors');
 var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+app.use(cors());
+
+app.use(express.static(__dirname+'/client'));
 
 // This is to kick in middleware for body parser
 app.use(bodyParser.json()); 
+
 
 Genre = require('./models/genres');
 Book = require('./models/book');

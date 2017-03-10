@@ -17,7 +17,8 @@ Add Dependencies to *package.json*:
 "dependencies":{
     "express":"*",
     "body-parser":"*",
-    "mongoose":"*"
+    "mongoose":"*",
+    "cors":"*"   
 },
 ```
 
