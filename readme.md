@@ -2,9 +2,9 @@
 
 # RESTful API From Scratch
 
-* [YouTube Video]('https://youtu.be/eB9Fq9I5ocs')
+* [YouTube Video](https://youtu.be/eB9Fq9I5ocs)
 
-* [Repository]('https://github.com/bradtraversy/bookstore')
+* [Repository](https://github.com/bradtraversy/bookstore)
 
 Create *package.json* file
 
