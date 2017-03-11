@@ -1,46 +1,129 @@
   // books
   
-  {
-    "title": "The Murder House",
-    "genre": "Suspense",
-    "description": "No. 7 Ocean Drive is a gorgeous, multi-million-dollar beachfront estate in the Hamptons, where money and privilege know no bounds. But its beautiful gothic exterior hides a horrific past: it was the scene of a series of depraved killings that have never been…",
-    "author": "James Patterson",
-    "publisher": "Brown and Company",
-    "pages": "480",
-    "image_url": "http://prodimage.images-bn.com/pimages/9781455589913_p0_v1_s192x300.jpg",
-    "buy_url": "http://www.barnesandnoble.com/w/the-murder-house-james-patterson/1120873479",
-  },
-  {
-    "title": "Truth or Die",
-    "genre": "Suspense",
-    "description": "After a serious professional stumble, attorney Trevor Mann may have finally hit his stride. He is found happiness with his girlfriend Claire Parker, a beautiful, ambitious journalist always on the hunt for a scoop. But when Claires newest story leads to a violent confrontation, Trevors newly…",
-    "publisher": "Grand Central Publishing",
-    "pages": "416",
-    "image_url": "http://prodimage.images-bn.com/pimages/9781455584963_p0_v1_s192x300.jpg",
-    "buy_url": "http://www.barnesandnoble.com/w/truth-or-die-james-patterson/1120509003?ean=9781455584963#productInfoTabs"
-  },
-  {
-    "title": "The Notebook",
-    "genre": "Romance",
-    "author": "Nicholas Sparks",
-    "publisher": "Grand Central Publishing",
-    "description": "Every so often a love story so captures our hearts that it becomes more than a story-it becomes an experience to remember forever.",
-    "pages": "272",
-    "image_url": "http://prodimage.images-bn.com/pimages/9781455582877_p0_v2_s192x300.jpg",
-    "buy_url": "http://www.barnesandnoble.com/w/notebook-nicholas-sparks/1100298896?ean=9781455582877"
-  }
+[
+    {
+        "title": "The Murder House",
+        "genre": "Suspense",
+        "author": "James Patterson",
+        "publisher": "Brown and Company",
+        "pages": "480",
+        "image_url": "http://prodimage.images-bn.com/pimages/9781455589913_p0_v1_s192x300.jpg",
+        "buy_url": "http://www.barnesandnoble.com/w/the-murder-house-james-patterson/1120873479",
+        "description": "No. 7 Ocean Drive is a gorgeous, multi-million-dollar beachfront estate in the Hamptons, where money and privilege know no bounds. But its beautiful gothic exterior hides a horrific past: it was the scene of a series of depraved killings that have never been…"
+    },
+    {
+        "title": "The Notebook",
+        "genre": "Romance",
+        "author": "Nicholas Sparks",
+        "publisher": "Grand Central Publishing",
+        "pages": "272",
+        "image_url": "http://prodimage.images-bn.com/pimages/9781455582877_p0_v2_s192x300.jpg",
+        "buy_url": "http://www.barnesandnoble.com/w/notebook-nicholas-sparks/1100298896?ean=9781455582877",
+        "description": "Every so often a love story so captures our hearts that it becomes more than a story-it becomes an experience to remember forever."
+    },
+    {
+        "title": "Truth or Die",
+        "genre": "Suspense",
+        "description": "After a serious professional stumble, attorney Trevor Mann may have finally hit his stride. He is found happiness with his girlfriend Claire Parker, a beautiful, ambitious journalist always on the hunt for a scoop. But when Claires newest story leads to a violent confrontation, Trevors newly…",
+        "publisher": "Grand Central Publishing",
+        "pages": "416",
+        "image_url": "http://prodimage.images-bn.com/pimages/9781455584963_p0_v1_s192x300.jpg",
+        "buy_url": "http://www.barnesandnoble.com/w/truth-or-die-james-patterson/1120509003?ean=9781455584963#productInfoTabs"
+    },
+    {
+        "title": "The Lucky One",
+        "genre": "Romance",
+        "description": "In his 14th book, bestselling author Nicholas Sparks tells the unforgettable story of a man whose brushes with death lead him to the love of his life.\nAfter U.S. Marine Logan Thibault finds a photograph of a smiling young woman buried in the dirt during his tour of duty in Iraq, he experiences a sudden streak of luck — winning poker games and even surviving…",
+        "author": "Nicholas Sparks",
+        "publisher": "Grand Central Publishing",
+        "pages": "416",
+        "image_url": "http://prodimage.images-bn.com/pimages/9781455508976_p0_v1_s192x300.jpg",
+        "buy_url": "http://www.barnesandnoble.com/w/lucky-one-nicholas-sparks/1100059036?ean=9781455508976"
+    },
+    {
+        "title": "The Hunger Games",
+        "genre": "Other",
+        "description": "The book no one can stop talking about . . . In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. ",
+        "author": "Suzanne Collins",
+        "publisher": "Scholastic, Inc",
+        "pages": "384",
+        "image_url": "http://prodimage.images-bn.com/pimages/9780545229937_p0_v2_s192x300.jpg",
+        "buy_url": "http://www.barnesandnoble.com/w/hunger-games-suzanne-collins/1100171585?ean=9780545229937"
+    }
+]
 
-// "genre"
+[
+    {
+        "name": "Thriller"
+    },
+    {
+        "name": "Romance"
+    },
+    {
+        "name": "Drama"
+    },
+    {
+        "name": "History"
+    },
+    {
+        "name": "Suspense"
+    },
+    {
+        "name": "War"
+    }
+]
 
-  {
-    "name": "Thriller",
-  },
-  {
-    "name": "Self Help",
-  },
-  {
-    "name": "Romance",
-  },
-  {
-    "name": "Drama",
-  }
+ // PRODUCTS
+
+ [
+    {
+        "productId": 1,
+        "productName": "Leaf Rake",
+        "productCode": "GDN-0011",
+        "releaseDate": "March 19, 2016",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "price": 19.95,
+        "starRating": 3.2,
+        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+    },
+    {
+        "productId": 2,
+        "productName": "Garden Cart",
+        "productCode": "GDN-0023",
+        "releaseDate": "March 18, 2016",
+        "description": "15 gallon capacity rolling garden cart",
+        "price": 32.99,
+        "starRating": 4.2,
+        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
+    },
+    {
+        "productId": 5,
+        "productName": "Hammer",
+        "productCode": "TBX-0048",
+        "releaseDate": "May 21, 2016",
+        "description": "Curved claw steel hammer",
+        "price": 8.9,
+        "starRating": 4.8,
+        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/73/rejon_Hammer.png"
+    },
+    {
+        "productId": 8,
+        "productName": "Saw",
+        "productCode": "TBX-0022",
+        "releaseDate": "May 15, 2016",
+        "description": "15-inch steel blade hand saw",
+        "price": 11.55,
+        "starRating": 3.7,
+        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/27070/egore911_saw.png"
+    },
+    {
+        "productId": 10,
+        "productName": "Video Game Controller",
+        "productCode": "GMG-0042",
+        "releaseDate": "October 15, 2015",
+        "description": "Standard two-button video game controller",
+        "price": 35.95,
+        "starRating": 4.6,
+        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+    }
+] 

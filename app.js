@@ -13,6 +13,7 @@ app.use(bodyParser.json());
 
 Genre = require('./models/genres');
 Book = require('./models/book');
+Product = require('./models/products');
 
 // Connect to mongoose
 
@@ -115,6 +116,60 @@ app.delete('/api/books/:_id', function(req, res ){
             throw err;
         }
         res.json(book);
+    });   
+});
+
+// PRODUCTS
+
+
+app.get('/api/products', function(req, res ){
+    Product.getProducts(function(err,products){
+        if(err){
+            throw err;
+        }
+        res.json(products);
+    });   
+});
+
+//58c1c94fc4d4916750b27259
+ 
+app.get('/api/products/:_id', function(req, res ){
+    Product.getProductById(req.params._id, function(err,product){
+        if(err){
+            throw err;
+        }
+        res.json(product);
+    })   
+});
+
+app.post('/api/products', function(req, res ){
+    var product = req.body;
+    Product.addProduct(product, function(err,product){
+        if(err){
+            throw err;
+        }
+        res.json(product);
+    })   
+});
+
+app.put('/api/products/:_id', function(req, res ){
+    var id = req.params._id;
+    var product = req.body;
+    Product.updateProduct(id,product, {}, function(err,product){
+        if(err){
+            throw err;
+        }
+        res.json(product);
+    })   
+});
+
+app.delete('/api/products/:_id', function(req, res ){
+    var id = req.params._id;
+    Product.removeProduct(id, function(err, product){
+        if(err){
+            throw err;
+        }
+        res.json(product);
     });   
 });
 
