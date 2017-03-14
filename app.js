@@ -22,7 +22,6 @@ var db = mongoose.connection;
 
 app.get('/', function(req, res) {
     res.send('Please use API');
-
 });
 
 app.get('/api/genres', function(req, res ){
@@ -173,5 +172,5 @@ app.delete('/api/products/:_id', function(req, res ){
     });   
 });
 
-app.listen(3000);
-console.log('Running on port 3000')
+app.listen(1000);
+console.log('Running on port 1000');
