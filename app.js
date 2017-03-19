@@ -5,15 +5,17 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 app.use(cors());
 
+
 app.use(express.static(__dirname+'/client'));
 
 // This is to kick in middleware for body parser
+app.use(bodyParser.urlencoded({extended: true})); 
 app.use(bodyParser.json()); 
-
 
 Genre = require('./models/genres');
 Book = require('./models/book');
 Product = require('./models/products');
+User = require('./models/users');
 
 // Connect to mongoose
 
@@ -171,6 +173,42 @@ app.delete('/api/products/:_id', function(req, res ){
         res.json(product);
     });   
 });
+
+// USERS
+
+app.get('/api/users/', function(req, res ){
+    User.getUsers(function(err,users){
+        if(err){
+            throw err;
+        }
+        res.json(users);
+    });   
+});
+
+app.get('/api/users/:_id', function(req, res ){
+    User.getUserById(req.params._id, function(err,user){
+        if(err){
+            throw err;
+        }
+        res.json(user);
+    })   
+});
+
+
+app.post('/api/users', function(req, res ){
+    var user = req.body;
+    User.addUser(user, function(err,user){
+        if(err){
+            throw err;
+        }
+        res.json(user);
+    })   
+});
+
+
+
+
+
 
 app.listen(1000);
 console.log('Running on port 1000');

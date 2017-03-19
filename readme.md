@@ -51,6 +51,7 @@ db.createCollection('books')
 db.createCollection('genres')
 
 show collections
+
 ```
 * Add items to collections
 ```
@@ -70,6 +71,10 @@ db.books.insert({
      image_url: 'http://prodimage.images-bn.com/pimages/9781455589913_p0_v1_s192x300.jpg',
      buy_url: 'http://www.barnesandnoble.com/w/the-murder-house-james-patterson/1120873479'
 })
+```
+* Empty Collection:
+```
+db.users.remove({})
 ```
 
 ## Add Routes to API and POSTMAN query
